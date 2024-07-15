@@ -6,7 +6,7 @@ terraform {
     }
   }
    backend "s3" {
-    bucket="prods-s3"
+    bucket="prods-s31"
     key="vpc-expense-dev-vpc"
     region="us-east-1"
     dynamodb_table="prod-table"
